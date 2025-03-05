@@ -1,0 +1,29 @@
+.recipe-page-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: orange solid 5px;
+    padding: 100px;
+}
+.image-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.big-image {
+    width: 830px;
+    height: 553px;
+    border-radius: 4px;
+}
+.recipe-content-header {
+    display: flex;
+    width: 830px;
+    padding: 30px 0px;
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 8px;
+}
+.ingredients-title,.instructions-title {
+    padding: 10px 0px;
+}

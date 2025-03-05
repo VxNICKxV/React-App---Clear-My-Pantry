@@ -1,0 +1,56 @@
+.webpage {
+    display: flex;
+    flex-direction: column;
+}
+.editRecipeCard {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    box-shadow: 4px 4px 4px black;
+    background-color: lightsalmon;
+}
+.img {
+    width: 20vw;
+    height: 30vh;
+}
+.updateButton {
+    height: 30%;
+    width: 20%;
+    align-self: center;
+    border: 2px solid black;
+    background-color: aqua;
+    margin-right: 2px;
+}
+.updateButton:hover {
+    background-color: lightgreen;
+}
+.deleteButton {
+    height: 30%;
+    width: 20%;
+    align-self: center;
+    border: 2px solid black;
+    background-color: aqua
+}
+.deleteButton:hover {
+    background-color: red;
+}
+.ingDiv {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    text-align: left;
+}
+.listTitle {
+    padding: 0px;
+    text-align: left;
+}
+.space {
+    margin-left: 8px;
+}
+.steps {
+    width: 35vw;
+    margin-bottom: 10px;
+}
+.container {
+    margin-bottom: 10px
+}

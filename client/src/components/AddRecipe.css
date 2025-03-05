@@ -1,0 +1,58 @@
+html, body, #root {
+    /* height: 100%; */
+    width: 100vw;  
+}
+.kadwa-regular {
+    font-family: "Kadwa", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kadwa-bold {
+    font-family: "Kadwa", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.webpage {
+    display: flex;
+    position: relative;
+    border: 6px ridge silver;
+    flex-direction: column; 
+    align-items: center;
+}
+.title {
+    border: 6px solid red;
+    width: 50%;
+    border-radius: 50%;
+    margin: 30px;
+}
+.recipeForm {
+    width: 100%;
+    margin-top: 0;
+}
+.ingredientDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Button {
+    border: 2px solid blue;
+    background-color: aqua;
+    margin: 3%;
+}
+.Button:hover {
+    background-color: lightgreen;
+    border: 2px solid black;
+}
+.addInput {
+    margin: 8px;
+}
+.inputField {
+    margin-bottom: .5vw;
+}
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

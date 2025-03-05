@@ -1,0 +1,23 @@
+.ingList {
+    list-style-type: none;
+}
+
+.activatedButton {
+    background-color: lightgreen;
+}
+
+.shared {
+    margin: 2px;
+}
+.ingredients {
+    box-shadow: 0px 4px 7px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+    margin: 0px 0px 10px 0px;
+}
+
+.buttons {
+    text-align: left;
+}

@@ -1,0 +1,40 @@
+/* 
+    - position drawer on screen
+    - move container to right side
+    - set image width
+    - allow scrolling vertically
+    - set transition 
+    - border and shadow effect*/
+.drawer {
+    background-color: aliceblue;
+    position: fixed;
+    width: 450px;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    overflow-y: auto;
+    transition: transform .4s ease;
+    box-shadow: -1px 0 8px black;
+}
+
+/* 
+- remove drawer from sight */
+.drawer-close {
+    transform: translate(450px);
+
+}
+
+/* 
+- shifts close button from the top left corner
+- shows hand cursor when hovering over button
+ */
+.close-btn-container {
+    position: absolute;
+    cursor: pointer;
+    transform: translate(10px, 20px);
+}
+
+/* .drawer .recipe-image {
+    height: 350px;
+    width: 100%;
+} */

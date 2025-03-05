@@ -1,0 +1,44 @@
+.webpage {
+    display: flex;
+    flex-direction: column;
+}
+.myRecipeCard {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 4px 4px 4px black;
+    background-color: lightsalmon;
+}
+.myImg {
+    width: 20vw;
+    height: 30vh;
+}
+.middleCardDiv {
+    width: 50%;
+}
+.editButton {
+    height: 30%;
+    width: 20%;
+    align-self: center;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.editButton:hover {
+    background-color: lightgreen;
+}
+.ingDiv {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    text-align: left;
+    background-color: white;
+}
+.listTitle {
+    padding: 0px;
+    text-align: left;
+    background-color: white;
+    margin-left: 2px
+}
+.list {
+    margin-left: 2px;
+}
